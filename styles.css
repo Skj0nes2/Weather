@@ -1,0 +1,42 @@
+body {
+  padding: 20px;
+  background-color: black;
+  color: white;
+
+}
+.weather-card {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: #121212;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.Title{
+  font-family: 'Times New Roman', Verdana, Sans-Serif, Helvetica, Arial;
+  font-size: 42px;
+  font-weight: 900 bolder;
+  text-align: center;
+}
+.text-center{
+  font-family: Verdana, Sans-Serif, Helvetica, Arial;
+}
+.weather-icon {
+  max-width: 100px;
+  margin: 0 auto;
+  display: block;
+}
+label{
+  font-family: Verdana, Sans-Serif, Helvetica, Arial;
+}
+input{
+  font-family: Verdana, Sans-Serif, Helvetica, Arial;
+  background-color:#151515;
+}
+.btn-primary{
+  font-family: Verdana, Sans-Serif, Helvetica, Arial;
+  display: block;
+  width: 100px;
+  margin: auto; 
+  text-align: center;
+}

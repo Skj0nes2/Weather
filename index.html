@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Weather</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-card">
+        <h1 class="Title">Current Weather</h1>
+        <form id="location-form">
+          <div class="form-group">
+            <label for="location-input">Location:</label>
+            <input type="text" class="form-control" id="location-input" value="Indiana">
+          </div>
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <div id="weather-info" class="mt-4"></div>
+      </div>
+    </div>
+  </body>
+</html>
