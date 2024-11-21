@@ -1,3 +1,2 @@
 # Weather
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/Skj0nes2/Weather)
+A very simple weather app made in stackblitz using html, css, js and weatherstack api, and finaly hosted on github pages.
